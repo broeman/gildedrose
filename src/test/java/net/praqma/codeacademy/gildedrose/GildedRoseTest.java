@@ -31,7 +31,7 @@ public class GildedRoseTest {
                 // this conjured item does not work properly yet
                 new Item("Conjured Mana Cake", 3, 6) };
 		GildedRose app = new GildedRose(items);
-		assertEquals("Aged Brie", app.items[1].name); 	
+		assertEquals("Aged Brie", app.items[0].name); 	
 	}
 
 }
